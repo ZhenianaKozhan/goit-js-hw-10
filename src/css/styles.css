@@ -19,7 +19,38 @@ body {
   margin-bottom: 16px;
 }
 
+input#search-box:focus {
+  outline: none;
+  border: 1px solid blue;
+  border-radius: 5;
+}
+
 .country-list {
-  list-style: none;
   padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  margin: 10px;
+  font-size: medium;
+  text-shadow: #212121;
+}
+
+.name {
+  margin: 10px;
+}
+
+.key {
+  margin: 10;
+  font-size: medium;
+  font-weight: 600;
+  
+}
+
+.country {
+  margin: 20px;
+  font-size: larger;
+  font-weight: bolder;
 }
